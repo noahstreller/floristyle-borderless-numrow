@@ -8,7 +8,7 @@ const {
 const VERSION = config.VERSION;
 const BUILD_FOLDER = "prod-releases"; // Hardcoded for production builds
 
-const decompressedDir = path.join(__dirname, "..", "decompressed");
+const decompressedDir = path.join(__dirname, "..", "theme");
 const outputDir = path.join(__dirname, "..", BUILD_FOLDER);
 
 const outputFileName = `floristyle-borderless-v${VERSION}.flex`;
