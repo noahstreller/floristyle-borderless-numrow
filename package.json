@@ -1,29 +1,29 @@
 {
-	"name": "floristyle",
-	"version": "1.0.0",
-	"description": "Dynamic Material You themes for the Florisboard keyboard. Make the Florisboard keyboard's UI more similar to Gboard.",
-	"main": "index.js",
-	"scripts": {
-		"decompress": "node src/js/decompress.js",
-		"compress:debug": "node src/js/compressDebug.js",
-		"compress:prod": "node src/js/compressProd.js",
-		"build:debug": "npm run compress:debug",
-		"build:prod": "npm run compress:prod"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/itsmartashub/floristyle.git"
-	},
-	"keywords": [
-		"gboard, florisboard, florisboard-theme, florisboard-extension, material you, material themes, keyboard, keyboard-themes, themes, dynamic themes"
-	],
-	"author": "@itsmartashub",
-	"license": "GPL-3.0-or-later",
-	"bugs": {
-		"url": "https://github.com/itsmartashub/floristyle/issues"
-	},
-	"homepage": "https://github.com/itsmartashub/floristyle#readme",
-	"dependencies": {
-		"adm-zip": "^0.5.10"
-	}
+  "name": "floristyle-borderless-numrow",
+  "version": "0.0.1",
+  "description": "Dynamic Material You themes for the Florisboard keyboard. Make the Florisboard keyboard's UI more similar to Gboard.",
+  "main": "index.js",
+  "scripts": {
+    "decompress": "node src/js/decompress.js",
+    "compress:debug": "node src/js/compressDebug.js",
+    "compress:prod": "node src/js/compressProd.js",
+    "build:debug": "npm run compress:debug",
+    "build:prod": "npm run compress:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahstreller/floristyle-borderless-numrow.git"
+  },
+  "keywords": [
+    "gboard, florisboard, florisboard-theme, florisboard-extension, material you, material themes, keyboard, keyboard-themes, themes, dynamic themes"
+  ],
+  "author": "@noahstreller",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/noahstreller/floristyle-borderless-numrow/issues"
+  },
+  "homepage": "https://github.com/noahstreller/floristyle-borderless-numrow",
+  "dependencies": {
+    "adm-zip": "^0.5.10"
+  }
 }
